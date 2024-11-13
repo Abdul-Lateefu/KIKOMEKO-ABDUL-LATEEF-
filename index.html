@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIKOMEKO ABDUL LATEEF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <h1>KRAVEN HIGH CAMPUS</h1>
+        <nav class="sticky">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+               <li><a href ="office.html">OFFICE HOURS AND SUBJECTS</li>
+                
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">More</a>
+                    <div class="dropdown-content">
+                        
+                          <a href ="events.html">EVENTS
+                        
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Carousel Section -->
+    <section id="home">
+        <div class="carousel">
+            <img src="t.jpg" alt="School view" class="carousel-image active">
+            <img src="a.jpg" alt="Classroom" class="carousel-image">
+            <img src="p.jpg" alt="swimming pool" class="carousel-image">
+            <img src="z.jpg" alt="School view" class="carousel-image active">
+            <img src="x.jpg" alt="School view" class="carousel-image active">
+            <img src="y.jpg" alt="School view" class="carousel-image active">
+            <img src="g.jpg" alt="School view" class="carousel-image active">
+
+            <div class="carousel-controls">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+        </div>
+        <p>Welcome to our vibrant school community!</p>
+    </section>
+
+    <!-- About Us Section with Hover Effects -->
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="features">
+            <div class="feature hover-effect">
+                <h3>Experienced Staff</h3>
+                <p>Our team of dedicated educators ensures quality teaching.</p>
+            </div>
+            <div class="feature hover-effect">
+                <h3>Advanced Facilities</h3>
+                <p>Modern classrooms, laboratories, and sports facilities.</p>
+            </div>
+            <div class="feature hover-effect">
+                <h3>Community Engagement</h3>
+                <p>Programs that encourage active participation and social responsibility.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section with Custom Styles -->
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>Learn about our admissions process and take the first step to join us.</p>
+        <ul class="admission-steps">
+            <li>Step 1: Complete the application form</li>
+            <li>Step 2: Submit required documents</li>
+            <li>Step 3: Schedule an interview</li>
+        </ul>
+    </section>
+
+    <!-- Contact Form Section with Transition Effects -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="transition">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
